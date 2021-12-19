@@ -13,7 +13,7 @@ proxies:
     password: 90185e1ac1cf
     plugin: obfs
     plugin-opts:
-    mode: tls
+    mode: http
   - name: Shadowsocks-2
     type: ss
     server: 220.130.18.217
@@ -22,7 +22,7 @@ proxies:
     password: 973d3abdc9b2
     plugin: obfs
     plugin-opts:
-    mode: tls
+    mode: http
   - name: ShadowsocksR
     type: ssr
     server: 140.83.81.214
@@ -31,7 +31,7 @@ proxies:
     password: c1977hen
     plugin: obfs
     plugin-opts:
-    mode: tls
+    mode: http
 proxy-groups:
   - name: Proxy
     proxies:
