@@ -36,14 +36,7 @@ proxies:
     mode:  tls # or http
     # host: bing.com
 proxy-groups:
-  - name: Proxy
-    proxies:
-      - Shadowsocks
-      - Shadowsocks-2
-      - ShadowsocksR
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 600
+  - { name: "PROXY", type: ss, proxies: ["Shadowsocks"] }
 rules:
   - DOMAIN-KEYWORD,yuanyuan.cncalife.com,DIRECT
   - DOMAIN-SUFFIX,kongxiangrui.xyz,Shadowsocks-2
