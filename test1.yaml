@@ -14,7 +14,6 @@ proxies:
     plugin: obfs
     plugin-opts:
     mode:  tls # or http
-    # host: bing.com
  - name: "Shadowsocks"
     type: ss
     server: 60.250.137.213
@@ -24,7 +23,6 @@ proxies:
     plugin: obfs
     plugin-opts:
     mode:  tls # or http
-    # host: bing.com
   - name: ""ShadowsocksR"
     type: ssr
     server: 140.83.81.214
@@ -34,7 +32,6 @@ proxies:
     plugin: obfs
     plugin-opts:
     mode:  tls # or http
-    # host: bing.com
 proxy-groups:
   - { name: "PROXY", type: ss, proxies: ["Shadowsocks"] }
 rules:
