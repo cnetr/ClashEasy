@@ -22,7 +22,7 @@ proxies:
     password: "973d3abdc9b2"
     plugin: obfs
     plugin-opts:
-    mode: http
+    mode: tls
   - name: ""ShadowsocksR"
     type: ssr
     server: 140.83.81.214
